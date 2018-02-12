@@ -11,3 +11,5 @@ dependencies:
   - sympy
   - numpy
   - ipywidgets=7
+  - jupyter_latex_envs
+  - latexcodec
