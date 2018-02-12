@@ -1,1 +1,2 @@
-# robust_workshop
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/anacost/trabalho/master)
+
