@@ -1,2 +1,10 @@
-   #!/usr/bin/env bash
-   jupyter trust *.ipynb
+#!/bin/bash
+
+# run matplotlib once to generate the font cache
+python -c "import matplotlib; matplotlib.use('Agg'); import pylab; fig, ax = pylab.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
+   
+   
+#!/usr/bin/env bash
+jupyter trust *.ipynb
