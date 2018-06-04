@@ -14,3 +14,5 @@ dependencies:
   - jupyter_latex_envs
   - latexcodec
   - mpmath
+  - scipy
+  - math
